@@ -1,0 +1,41 @@
+/* .body{
+    background-image: linear-gradient(to right,rgb(238, 192, 240),rgb(188, 241, 237));
+} */
+/* adding background to body */
+#grad{
+    background-image: linear-gradient(to left,rgb(168, 243, 171),white , rgb(243, 210, 166));
+    
+}
+.header{
+       /* border: solid ; */
+    text-align: center;
+    
+    display: flex;
+       
+    border-radius: 6px;
+    height: 40px;
+    width: 100%;
+    background-image: linear-gradient(to right,rgb(231, 177, 105),rgb(66, 202, 127))
+}
+#profile{
+    /* border: solid rgb(2, 2, 2) 1px; */
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    /* background-image: image("profile.png"); */
+    margin-left: 5px;
+    align-self: center;
+    
+    background:  yellow url("profile.png") no-repeat center;
+    
+}
+#name{
+    width: 450px;
+align-self: center;
+align-items: center;
+}
+#menu_bar{
+    height: 30px;
+    width: 30px;
+    border: solid black;
+}
